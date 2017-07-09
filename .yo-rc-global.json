@@ -1,0 +1,15 @@
+{
+  "generator-jekyllized:1.0.0-rc.4": {
+    "promptValues": {
+      "projectName": "test",
+      "projectDescription": "a test of yeoman and the jekyll package",
+      "projectURL": "http://test.com",
+      "authorName": "K Proc",
+      "authorEmail": "test@gmail.com",
+      "authorURI": "",
+      "authorBio": "a short description about yourself",
+      "uploading": "Amazon S3",
+      "jekyllPermalinks": "none"
+    }
+  }
+}
