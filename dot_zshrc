@@ -1,12 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH:/anaconda3/bin
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # export path for nvim
 export PATH=$PATH:/$HOME/nvim-macos/bin
-
-# Run neofetch
-#echo
-#neofetch
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/atlantis/.oh-my-zsh"
@@ -114,8 +110,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls='exa'
-alias ll='exa  -la'
 alias la='exa -a'
+alias ll='exa -la'
 
 # Syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -130,7 +126,3 @@ export NVM_DIR="$HOME/.nvm"
 
 # Starship.rs
 eval "$(starship init zsh)"
-
-# Wasmer
-export WASMER_DIR="/Users/atlantis/.wasmer"
-[ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
